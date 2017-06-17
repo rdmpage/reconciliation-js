@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>baseURL</key>
+	<string>https://ubiquitous-chair.glitch.me</string>
+	<key>bodyString</key>
+	<string>{"queries":"{\"q0\":{\"query\":\"Li et al. 2008. A new blind underground species of the genus Triplophysa from Yunnan, China. Zoological Research 29:674-678.\",\"limit\":3},\"q1\":{\"query\":\"Kottelat 1988. Two species of cavefishes from northern Thailand in the genera Nemacheilus and Homaloptera. Records of the Australian Museum 40:225-231.\",\"limit\":3},\"q2\":{\"query\":\"Kottelat 2012. Draconectes narinosus, a new genus and species of cave fish from an island of Halong Bay, Vietnam. Revue Suisse de Zoologie 119:341-249.\",\"limit\":3},\"q3\":{\"query\":\"Romero et al. 2009. The hypogean fihes of China. Environmental Biology of Fishes 86:211-278.\",\"limit\":3},\"q4\":{\"query\":\"Weber and Wilkens 1998. Rhamdia macuspanensis: A new species of troglobitic pimelodid catfish from a cave in Tabasco, Mexico. Copeia 1998:998-1004.\",\"limit\":3},\"q5\":{\"query\":\"Berti and Ercolini 1991. Caecogobius cryptophthalmus n. gen. n. sp. the first stygobitic fish from Philippines. Tropical Zoology 4:129-138.\",\"limit\":3},\"q6\":{\"query\":\"Sparks and Chakrabarty 2012. Revision of the endemic Malagasy cavefish genus Typhleotris (Teleostei: Gobiiformes: Milyeringidae), with discussion of its phylogentic placement and description of a new species. American Museum Novitates 3764:1-28\",\"limit\":3},\"q7\":{\"query\":\"Allen 1996. Oxeleotris caeca, a new species of blind cave fish from papua New Guinea. Revue francaise d'Aquariologie 23:43-46.\",\"limit\":3},\"q8\":{\"query\":\"Heuts and Leleup 1954. La geographie et l'ecologie des Grottes du Bas-Congo. Les habitats de Caecobarbus geertsii Blgr. Annales Musee Royal du Congo Belge 35:1-71\",\"limit\":3},\"q9\":{\"query\":\"Berti and Messana 2010. Subterreanean fishes of Africa. Chapter 10 in Biology of subterranean fishes (Trajano and Bichuette eds.)\",\"limit\":3}}"}</string>
+	<key>followRedirect</key>
+	<true/>
+	<key>handleJSONPCallbacks</key>
+	<false/>
+	<key>headers</key>
+	<array>
+		<dict>
+			<key>header</key>
+			<string>Content-Type</string>
+			<key>inUse</key>
+			<true/>
+			<key>value</key>
+			<string>application/json</string>
+		</dict>
+	</array>
+	<key>httpMethod</key>
+	<string>POST</string>
+	<key>jsonpScript</key>
+	<string></string>
+	<key>paramBodyUIChoice</key>
+	<integer>0</integer>
+	<key>parameters</key>
+	<array>
+		<dict>
+			<key>inUse</key>
+			<false/>
+			<key>parameter</key>
+			<string>queries</string>
+			<key>value</key>
+			<string>{ "q0": { "query": "Deighton, F. C. (1987). New species of Pseudocercospora and Mycovellosiella, and new combinations into Pseudocercospora and Phaeoramularia. Transactions of the British Mycological Society, 88(3), 365–391", "limit": 3 }, "q1": { "query": "Xia, J.-W., Ma, L.-G., Ma, Y.-R., Castañeda-Ruíz, R. F., &amp; Zhang, X.-G. (2013). Corynesporopsis curvularioidessp. nov. and New Records of Microfungi from Southern China. Cryptogamie, Mycologie, 34(3), 281–288.", "limit": 3 } }</string>
+		</dict>
+		<dict>
+			<key>inUse</key>
+			<false/>
+			<key>parameter</key>
+			<string>callback</string>
+			<key>value</key>
+			<string>j</string>
+		</dict>
+	</array>
+	<key>parametersType</key>
+	<integer>0</integer>
+	<key>presentBeforeChallenge</key>
+	<false/>
+	<key>stringEncoding</key>
+	<integer>4</integer>
+	<key>usingHTTPBody</key>
+	<true/>
+</dict>
+</plist>
